@@ -1,3 +1,16 @@
+/* CSS Index
+ ------------------------------------
+ 1. Default css
+ 2. Topbar Styles
+ 3. Header Styles
+ 4. Hero Section's Styles
+ 5. About Section's Styles
+ 6. Feature Section's Styles
+ 7. Counter Section's Styles
+ 8. Testimonial Section's Styles
+ 9. Drop-down menu animation
+ */
+/*---------- 1. Default css ----------*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -31,6 +44,24 @@ ul {
 
 body {
   font-family: 'Roboto';
+}
+
+/*---------- Default css End ----------*/
+.medilink {
+  /*---------- 2. Topbar Styles ----------*/
+  /*---------- Topbar Styles End ----------*/
+  /*---------- 3. Header ----------*/
+  /*---------- Header End ----------*/
+  /*---------- 4. Hero Section's Styles ----------*/
+  /*---------- Hero Section End ----------*/
+  /*---------- 5. About Section's Styles ----------*/
+  /*---------- 5. About Section End ----------*/
+  /*----------  6. Feature Section's Styles ----------*/
+  /*----------  Feature Section End ----------*/
+  /*---------- Counter Section's Styles ----------*/
+  /*---------- 7. Counter Section end ----------*/
+  /*---------- 8. Testimonial Section's Styles ----------*/
+  /*---------- 8. Testimonial Section End ----------*/
 }
 
 .medilink .topbar {
@@ -678,6 +709,7 @@ body {
   left: -40px;
 }
 
+/*---------- 9. Drop-down menu animation ----------*/
 @-webkit-keyframes load {
   0% {
     -webkit-transform: translateY(-25px);
@@ -689,7 +721,6 @@ body {
             transform: translateY(0px);
   }
 }
-
 @keyframes load {
   0% {
     -webkit-transform: translateY(-25px);
@@ -701,4 +732,6 @@ body {
             transform: translateY(0px);
   }
 }
+
+/*---------- Drop-down menu animation End ----------*/
 /*# sourceMappingURL=styles.css.map */

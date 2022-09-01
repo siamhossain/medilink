@@ -1,3 +1,19 @@
+ /* CSS Index
+ ------------------------------------
+ 1. Default css
+ 2. Topbar Styles
+ 3. Header Styles
+ 4. Hero Section's Styles
+ 5. About Section's Styles
+ 6. Feature Section's Styles
+ 7. Counter Section's Styles
+ 8. Testimonial Section's Styles
+ 9. Drop-down menu animation
+ */
+
+
+ /*---------- 1. Default css ----------*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -26,8 +42,10 @@
  body {
     font-family: 'Roboto';
  } 
+ /*---------- Default css End ----------*/
 
 .medilink {
+    /*---------- 2. Topbar Styles ----------*/
     .topbar {
         background-color: #263458;
         height: 50px;
@@ -76,7 +94,9 @@
             }
         }
     }
+    /*---------- Topbar Styles End ----------*/
 
+    /*---------- 3. Header ----------*/
     header {
         position: absolute;
         left: 0;
@@ -177,7 +197,9 @@
             }
         }
     }
+    /*---------- Header End ----------*/
 
+    /*---------- 4. Hero Section's Styles ----------*/
     .hero-section {
         background: url("./images/hero-bg.png");
         height: 750px;
@@ -269,7 +291,9 @@
             }
         }
     }
+    /*---------- Hero Section End ----------*/
 
+    /*---------- 5. About Section's Styles ----------*/
     .about-section {
         background: #FFFFFF;
         padding: 130px 0 129px 0;
@@ -366,7 +390,9 @@
             }
         }
     }
+    /*---------- 5. About Section End ----------*/
 
+    /*----------  6. Feature Section's Styles ----------*/
     .features {
         background: url("./images/features-bg.png");
         background-size: cover;
@@ -456,7 +482,9 @@
             }
         }
     }
-    
+    /*----------  Feature Section End ----------*/
+
+    /*---------- Counter Section's Styles ----------*/
     .counter {
         background: url("./images/counter-bg.png");
         background-size: cover;
@@ -495,7 +523,9 @@
             }
         }
     }
+    /*---------- 7. Counter Section end ----------*/
 
+    /*---------- 8. Testimonial Section's Styles ----------*/
     .testimonials {
         background: url("./images/Testimonials-bg.png");
         height: 649px;
@@ -559,9 +589,10 @@
             }
         }
     }
+    /*---------- 8. Testimonial Section End ----------*/
 }
 
-
+/*---------- 9. Drop-down menu animation ----------*/
 @keyframes load{
     0%{
       transform: translateY(-25px);
@@ -572,3 +603,4 @@
     }
   
 }
+/*---------- Drop-down menu animation End ----------*/
