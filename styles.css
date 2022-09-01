@@ -1,0 +1,703 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  display: inline-block;
+  color: #396CF0;
+}
+
+a {
+  color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+.medilink .topbar {
+  background-color: #263458;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.medilink .topbar .info-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.medilink .topbar .info-wrapper .info p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.medilink .topbar .info-wrapper .info p i {
+  margin-right: 8px;
+}
+
+.medilink .topbar .info-wrapper .social-info span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-right: 8px;
+}
+
+.medilink .topbar .info-wrapper .social-info ul {
+  display: inline-block;
+}
+
+.medilink .topbar .info-wrapper .social-info ul li {
+  display: inline;
+  margin-right: 7.78px;
+}
+
+.medilink .topbar .info-wrapper .social-info ul li a {
+  color: #fff;
+}
+
+.medilink .topbar .info-wrapper .social-info ul li a:hover {
+  color: #1da1f2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.medilink header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 40px;
+}
+
+.medilink header .header-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: transparent;
+}
+
+.medilink header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+.medilink header nav ul li a {
+  padding: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+}
+
+.medilink header nav ul li ul.drop-down-menu-list {
+  display: none;
+  width: 200px;
+  position: absolute;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 1;
+}
+
+.medilink header nav ul li ul.drop-down-menu-list li {
+  display: block;
+  padding: 12px 15px;
+  margin: 0;
+  background: #FFFFFF;
+  opacity: 0;
+}
+
+.medilink header nav ul li ul.drop-down-menu-list li a {
+  padding-left: 10px;
+}
+
+.medilink header nav ul li.drop-down::before {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  position: absolute;
+  top: 7px;
+  color: #646464;
+  right: -8px;
+  font-size: 11px;
+}
+
+.medilink header nav ul li.drop-down:hover ul.drop-down-menu-list {
+  display: block;
+}
+
+.medilink header nav ul li.drop-down:hover ul.drop-down-menu-list li {
+  -webkit-animation: load 1s forwards;
+          animation: load 1s forwards;
+}
+
+.medilink header nav ul li.drop-down:hover ul.drop-down-menu-list li:hover {
+  background: #EBE5FE;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.medilink header nav ul li.drop-down:hover ul.drop-down-menu-list li:hover a {
+  color: #ad13cc;
+}
+
+.medilink header .header-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.medilink header .header-actions .search {
+  margin-right: 20px;
+}
+
+.medilink header .header-actions .search i {
+  color: #7E8DB3;
+}
+
+.medilink header .header-actions .action-btn button {
+  width: 193px;
+  height: 48px;
+  background: #396CF0;
+  border: 1px solid #396CF0;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.medilink .hero-section {
+  background: url("./images/hero-bg.png");
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.medilink .hero-section .hero-text-content {
+  padding-top: 240px;
+  width: 512px;
+}
+
+.medilink .hero-section .hero-text-content h5 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #396CF0;
+  margin-bottom: 8px;
+}
+
+.medilink .hero-section .hero-text-content h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.medilink .hero-section .hero-text-content p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #646464;
+}
+
+.medilink .hero-section .hero-btns {
+  margin-top: 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.medilink .hero-section .hero-btns button {
+  width: 197px;
+  height: 52px;
+  left: 316px;
+  top: 553px;
+  background: #396CF0;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  margin-right: 35px;
+}
+
+.medilink .hero-section .hero-btns .watch-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.medilink .hero-section .hero-btns .watch-video .circle {
+  width: 60px;
+  height: 60px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.medilink .hero-section .hero-btns .watch-video .circle i {
+  color: #111111;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.medilink .hero-section .hero-btns .watch-video span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: capitalize;
+  margin-left: 11px;
+  color: #646464;
+}
+
+.medilink .about-section {
+  background: #FFFFFF;
+  padding: 130px 0 129px 0;
+}
+
+.medilink .about-section .about-img {
+  width: 669px;
+  height: 603.11px;
+}
+
+.medilink .about-section .about-img img {
+  width: 100%;
+  height: auto;
+}
+
+.medilink .about-section .about-text-content {
+  width: 520px;
+}
+
+.medilink .about-section .about-text-content .about-heading {
+  position: relative;
+}
+
+.medilink .about-section .about-text-content .about-heading h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 13px;
+}
+
+.medilink .about-section .about-text-content .about-heading img {
+  position: absolute;
+  top: 90px;
+  right: 52px;
+}
+
+.medilink .about-section .about-text-content h6 {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #111111;
+  margin-bottom: 32px;
+}
+
+.medilink .about-section .about-text-content p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #646464;
+  margin-bottom: 50px;
+  padding-left: 14px;
+  border-left: 4px solid #396CF0;
+}
+
+.medilink .about-section .service-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.medilink .about-section .service-wrapper .services .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.medilink .about-section .service-wrapper .services .service .service-icon {
+  width: 80px;
+  height: 80px;
+  background: #F0F4FF;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+.medilink .about-section .service-wrapper .services .service .service-info {
+  width: 218px;
+}
+
+.medilink .about-section .service-wrapper .services .service .service-info h4 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.medilink .about-section .service-wrapper .services .service .service-info p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #646464;
+}
+
+.medilink .about-section .service-wrapper .slogan-img {
+  margin-left: 40px;
+}
+
+.medilink .features {
+  background: url("./images/features-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 126px 0 105px 0;
+}
+
+.medilink .features .feature-details {
+  position: relative;
+}
+
+.medilink .features .feature-details .feature-video-content {
+  position: absolute;
+  right: -10px;
+  bottom: -5px;
+}
+
+.medilink .features .feature-details .feature-text-content {
+  width: 475px;
+}
+
+.medilink .features .feature-details .feature-text-content h5 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F0F4FF;
+  margin-bottom: 17px;
+}
+
+.medilink .features .feature-details .feature-text-content h2 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+}
+
+.medilink .features .feature-details .feature-text-content p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F0F4FF;
+  margin-bottom: 13px;
+}
+
+.medilink .features .feature-details .feature-text-content .feature-list {
+  margin-bottom: 35px;
+}
+
+.medilink .features .feature-details .feature-text-content .feature-list ul li {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 39px;
+  color: #F0F4FF;
+  margin-left: 40px;
+  position: relative;
+}
+
+.medilink .features .feature-details .feature-text-content .feature-list ul li::before {
+  content: "\2713";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: #396CF0;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: -40px;
+  top: 7px;
+}
+
+.medilink .features .feature-details .feature-text-content .make-appoint-btn button {
+  width: 234px;
+  height: 52px;
+  background: #396CF0;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.medilink .counter {
+  background: url("./images/counter-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 132px 0 129px 0;
+}
+
+.medilink .counter .single-counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.medilink .counter .single-counter .counters-content {
+  text-align: center;
+}
+
+.medilink .counter .single-counter .counters-content .counter-icon {
+  margin-bottom: 25px;
+}
+
+.medilink .counter .single-counter .counters-content h2.counting-number {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #111111;
+  margin-bottom: 15px;
+}
+
+.medilink .counter .single-counter .counters-content p.counter-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #848484;
+}
+
+.medilink .testimonials {
+  background: url("./images/Testimonials-bg.png");
+  height: 649px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.medilink .testimonials .testimonial-content {
+  width: 868px;
+}
+
+.medilink .testimonials .testimonial-content .comments {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.medilink .testimonials .testimonial-content .avatars {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.medilink .testimonials .testimonial-content .avatars img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.medilink .testimonials .testimonial-content .avatars img:nth-child(2) {
+  border: 1px dashed #FFFFFF;
+  border-radius: 50px;
+}
+
+.medilink .testimonials .testimonial-content .name {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;
+  color: #FFFFFF;
+}
+
+.medilink .testimonials .testimonial-content .designation {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #A8C0FF;
+  position: relative;
+  margin-left: 40px;
+}
+
+.medilink .testimonials .testimonial-content .designation::before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  top: 8px;
+  left: -40px;
+}
+
+@-webkit-keyframes load {
+  0% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes load {
+  0% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+/*# sourceMappingURL=styles.css.map */
