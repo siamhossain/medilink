@@ -10,6 +10,7 @@
  8. Testimonial Section's Styles
  9. Drop-down menu animation
  */
+ 
 /*---------- 1. Default css ----------*/
 * {
   -webkit-box-sizing: border-box;
@@ -45,25 +46,13 @@ ul {
 body {
   font-family: 'Roboto';
 }
-
 /*---------- Default css End ----------*/
+
 .medilink {
-  /*---------- 2. Topbar Styles ----------*/
-  /*---------- Topbar Styles End ----------*/
-  /*---------- 3. Header ----------*/
-  /*---------- Header End ----------*/
-  /*---------- 4. Hero Section's Styles ----------*/
-  /*---------- Hero Section End ----------*/
-  /*---------- 5. About Section's Styles ----------*/
-  /*---------- 5. About Section End ----------*/
-  /*----------  6. Feature Section's Styles ----------*/
-  /*----------  Feature Section End ----------*/
-  /*---------- Counter Section's Styles ----------*/
-  /*---------- 7. Counter Section end ----------*/
-  /*---------- 8. Testimonial Section's Styles ----------*/
-  /*---------- 8. Testimonial Section End ----------*/
+
 }
 
+  /*---------- 2. Topbar Styles ----------*/
 .medilink .topbar {
   background-color: #263458;
   height: 50px;
@@ -125,7 +114,9 @@ body {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+/*---------- Topbar Styles End ----------*/
 
+/*---------- 3. Header ----------*/
 .medilink header {
   position: absolute;
   left: 0;
@@ -243,7 +234,9 @@ body {
   font-size: 15px;
   line-height: 18px;
 }
+/*---------- Header End ----------*/
 
+/*---------- 4. Hero Section's Styles ----------*/
 .medilink .hero-section {
   background: url("./images/hero-bg.png");
   height: 750px;
@@ -359,7 +352,9 @@ body {
   margin-left: 11px;
   color: #646464;
 }
+/*---------- Hero Section End ----------*/
 
+/*---------- 5. About Section's Styles ----------*/
 .medilink .about-section {
   background: #FFFFFF;
   padding: 130px 0 129px 0;
@@ -480,7 +475,9 @@ body {
 .medilink .about-section .service-wrapper .slogan-img {
   margin-left: 40px;
 }
+/*---------- About Section End ----------*/
 
+/*----------  6. Feature Section's Styles ----------*/
 .medilink .features {
   background: url("./images/features-bg.png");
   background-size: cover;
@@ -582,7 +579,9 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+/*----------  Feature Section End ----------*/
 
+/*---------- Counter Section's Styles ----------*/
 .medilink .counter {
   background: url("./images/counter-bg.png");
   background-size: cover;
@@ -632,7 +631,9 @@ body {
   text-transform: uppercase;
   color: #848484;
 }
-
+/*---------- Counter Section end ----------*/
+ 
+/*---------- 8. Testimonial Section's Styles ----------*/
 .medilink .testimonials {
   background: url("./images/Testimonials-bg.png");
   height: 649px;
@@ -708,6 +709,7 @@ body {
   top: 8px;
   left: -40px;
 }
+/*---------- Testimonial Section End ----------*/
 
 /*---------- 9. Drop-down menu animation ----------*/
 @-webkit-keyframes load {
