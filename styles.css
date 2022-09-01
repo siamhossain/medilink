@@ -578,6 +578,7 @@ body {
 
 .medilink .counter .single-counter .counters-content .counter-icon {
   margin-bottom: 25px;
+  height: 52px;
 }
 
 .medilink .counter .single-counter .counters-content h2.counting-number {
